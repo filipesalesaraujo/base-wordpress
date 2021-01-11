@@ -1,0 +1,30 @@
+.dg-clearfix {
+	@extend %clearfix;
+}
+
+.dg-mobilehide {
+	@media(max-width: 991px) {
+		display: none;
+	}
+}
+
+.dg-desktophide {
+	@media(min-width: 992px) {
+		display: none;
+	}
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+a > img {
+	&:hover, &:focus {
+		opacity: 0.8;
+	}
+}

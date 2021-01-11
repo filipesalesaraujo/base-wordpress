@@ -1,0 +1,18 @@
+// Para usar um placeholder, só escrever "@extend %nome_do_placeholder"
+
+%clearfix {
+	&:before, &:after {
+	    content: "";    
+	    display: block;
+	}
+	&:after {
+	    clear: both;
+	}
+}
+
+%titulo{
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color:$cortitulo;
+}
