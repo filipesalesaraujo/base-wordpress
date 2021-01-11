@@ -1,30 +1,40 @@
 
 // Bases
-@import 'base/variables';
-@import 'base/funcoes';
-@import 'base/mixins';
-@import 'base/placeholders';
+@import 'base/placeholder';
 @import 'base/reset';
+@import 'base/typography';
+@import 'base/variables';
 
-// Módulos
-@import 'modules/bootstrap';
-@import 'modules/slick';
-@import 'modules/animate';
-@import 'modules/fancy';
-@import 'modules/scrollbar';
-
-
-// Componentes
+// Components
+@import 'components/acessibilidade';
 @import 'components/buttons';
 @import 'components/form';
 @import 'components/loading';
 @import 'components/padroes';
-@import 'components/acessibilidade';
-
 
 // Layout
-@import 'layout/home';
-@import 'layout/header';
 @import 'layout/footer';
+@import 'layout/header';
+@import 'layout/404';
+@import 'layout/archive';
+@import 'layout/index';
+@import 'layout/search';
+@import 'layout/single';
 
+// Pages
 
+// Themes
+@import 'themes/admin';
+@import 'themes/theme';
+
+// Utilities
+@import 'utilities/function';
+@import 'utilities/mixins';
+@import 'utilities/variables';
+
+// Vendors
+@import 'vendors/animate';
+@import 'vendors/bootstrap';
+@import 'vendors/fancy';
+@import 'vendors/scrollbar';
+@import 'vendors/slick';
