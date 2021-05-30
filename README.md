@@ -15,6 +15,7 @@ npm install
 
 
 fot deploy ftp
+https://github.com/marketplace/actions/ftp-deploy
 
 on:
   push:
