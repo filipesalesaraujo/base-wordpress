@@ -15,13 +15,13 @@
 // Layout
 @import 'layout/footer';
 @import 'layout/header';
-@import 'layout/404';
-@import 'layout/archive';
-@import 'layout/index';
 @import 'layout/search';
-@import 'layout/single';
 
 // Pages
+@import 'pages/404';
+@import 'pages/archive';
+@import 'pages/index';
+@import 'pages/single';
 
 // Themes
 @import 'themes/admin';
