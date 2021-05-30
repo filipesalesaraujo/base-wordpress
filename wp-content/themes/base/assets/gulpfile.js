@@ -40,7 +40,7 @@ function img(){
 function js() {
   return gulp
     .src("./src/js/**/*.js")
-    .pipe(concat('dg-functions.min.js'))
+    .pipe(concat('app.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./dist/js'));
 }
